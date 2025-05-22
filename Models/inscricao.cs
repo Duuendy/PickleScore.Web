@@ -5,9 +5,10 @@ using System.Web;
 
 namespace PickleScore.Web.Models
 {
-    public class inscricao
+    public class Inscricao
     {
         public int Id { get; set; }
+        public Inscricao() { }
         public int UsuarioId { get; set; }
         public int UsuarioParceiroId { get; set; }
         public int CampeonatoId { get; set; }

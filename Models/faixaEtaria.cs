@@ -5,9 +5,10 @@ using System.Web;
 
 namespace PickleScore.Web.Models
 {
-    public class faixaEtaria
+    public class FaixaEtaria
     {
         public int Id { get; set; }
+        public FaixaEtaria() { }
         public string Nome { get; set; } // Nome da faixa etária
         public DateTime DataInsercao { get; set; }
         public DateTime DataAlteracao { get; set; }
